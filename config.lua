@@ -76,7 +76,7 @@ hs.hotkey.bind({ "cmd", "alt", "ctrl" }, "Space", function()
   local max = screen:frame()
 
   f.x = max.x + (max.w / 6)
-  f.y = max.y + max.y / 3
+  f.y = max.y 
   f.w = (2 * max.w) / 3
   f.h = max.h
   win:setFrame(f)
